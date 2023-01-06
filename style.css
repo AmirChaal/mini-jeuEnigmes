@@ -1,0 +1,142 @@
+*{box-sizing: border-box ; padding: 0px ;
+margin: 0px; font-family: 'VT323', monospace;
+font-weight: 100;}
+a{color: white !important;
+    text-decoration: none !important;}
+
+html {background: url("img/fond1.jpg");
+    font-size: 37px;
+    color: white;}
+
+
+.txt{
+    width: 1200px;
+    filter: invert(100%);
+
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Chrome                         */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+.warning{
+    color: rgb(255, 111, 111);
+}
+
+.gauche{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.droite{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.gauche img, .droite img{
+    width: 100px;
+}
+
+.centrer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.init{
+    top: 60%;
+}
+
+input, select, button{
+    color: white;
+    border: solid 3px white;
+    background-color: rgba(255, 255, 255, 0);
+    height: 55px;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 100;
+    display: block;
+    margin: 0px auto 50px auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 2vh auto;
+}
+
+select{
+    width: 200px;
+}
+
+option{
+    border-radius: 0px;
+    color: black;
+}
+
+.submit{
+    cursor: pointer;
+}
+
+.guide{
+    height: 80vh;
+    filter: invert(100%);
+}
+
+.loupe{
+    height: 80vh;
+}
+
+p{text-align: center;}
+
+th{
+    padding: 0px 50px 40px 50px;
+}
+td{
+    padding: 10px 50px;
+}
+table{
+    margin: 0px auto;
+}
+
+.contain{
+    z-index: 50;
+    height: 800px;
+    width: 1201.5px;
+
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.statue{
+    z-index: 0;
+    height: 800px;
+    width: 1201.5px;
+
+    position: absolute;   
+    bottom: 0px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tcontain{
+    top: 330px;
+    left: 541px;
+    position: absolute;
+    z-index: 50;
+}
+
+.target{
+    width: 20px;
+    height: 25px;
+}
